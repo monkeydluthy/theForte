@@ -5,28 +5,43 @@ body {
     text-align: center;
 }
 
+
+header {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+}
+header img {
+        padding-top: 10px;
+        height: 250px;
+        width: auto;
+        justify-items: center;
+}
 div {
     display: block;
     max-width: 100%;
 }
 
-.logo {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-.logo img {
-    padding-top: 10px;
-    height: 250px;
-    width: auto;
-    justify-items: center;
-}
-
 .top-text {
     width: 100%;
-    background-color: black;;
+    background-color: black;
+    border-radius: 8px;
 }
+
+.sponsor-opp {
+    color: white;
+    font-weight: bolder;
+    font-size: 2rem;
+    letter-spacing: 4px;
+    padding-bottom: 1rem;;
+}
+
+.top-p {
+    color: white;
+    font-weight: bold;
+    color: red;
+}
+
 
 .top-text h2, h4, h1 {
     display: flex;
@@ -37,15 +52,13 @@ div {
 }
 
 .top-text h1 {
-    color: red;
+    color: white;
+    padding-top: 1rem;
 }
 
 #board {
-    margin-top: 10px;
-}
-
-#board h1 {
-    color: black;
+    background-color: whitesmoke;
+    border-radius: 8px;
 }
 
 .board-members {
@@ -58,6 +71,17 @@ div {
     margin: auto;
     width: 200px;
     height: auto;
+    padding-top: 2rem;
+}
+
+.board-members-text {
+    font-size: 3rem;
+    color: white;
+    padding: 2rem;;
+    background-color: black;
+    letter-spacing: 4px;
+    border-radius: 8px;
+    font-weight: bolder;
 }
 
 .board-text {
@@ -67,28 +91,45 @@ div {
     justify-content: space-around;
 }
 
-.content h1 {
-    color: black;
+.content {
+    background-color: whitesmoke;
+    border-radius: 8px;
 }
 
-.content p {
+.content-text {
+    color: white;
+    font-size: 3rem;
+    background-color: black;
+    padding: 2rem;
+    border-radius: 8px;
+    font-weight: bolder;
+}
+
+.purpose-text {
     line-height: 2.5rem;
-    align-items: center;
+    text-align: left;
+    display: block;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
-#plan h1 {
-    color: black;
-    background-color: red;
-    opacity: 80%;
+
+.plan-text {
+    background-color: black;
+    color: white;
+    font-size: 3rem;
+    font-weight: bolder;
+    padding: 3rem;
+    border-radius: 8px;
 }
 
-#plan .content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.plan {
+    background-color: whitesmoke;
+    border-radius: 8px;
 }
 
-#plan .content img {
+.plan img {
    align-items: center;
     width: 400px;
     height: auto;
@@ -99,16 +140,29 @@ div {
     font-style: italic;
 }
 
-.top-text-2 {
+.plan-text-bottom {
+    padding-bottom: 2rem;
+}
+
+
+.sponsorship-top-text {
+    margin-top: 3rem;
     background-color: black;
     color: white;
+    border-radius: 8px;
 }
 
-.top-text-2 h1 {
-    color: red;
+.top-text-3 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    font-weight: bolder;
+    letter-spacing: 3px;
 }
 
-
+.sponsorship-levels {
+   
+}
 .levels img {
     width: 300px;
     height: auto;
@@ -131,30 +185,37 @@ div {
     height: auto;
 }
 
-#form h1 {
+.form {
     color: white;
     background-color: black;
+    border-radius: 8px;
 }
 
-.form-text span {
+.form-text {
+   padding-top: 1rem;
+   font-size: 3rem;
+   font-weight: bolder;
+   letter-spacing: 2px;
+}
+
+.form-span {
+    padding-bottom: 1.5rem;
     font-style: italic;
-}
-
-.form-input img {
-    width: 700px;
-    height: auto;
 }
 
 .footer {
     background-color: black;
+    border-radius: 8px;
+    padding-bottom: 1rem;
 }
 
-.footer h1 {
-    margin-top: 20px;
-}
-
-.footer span {
+.footer-text {
     color: white;
-    font-size: 10px;
-    margin: auto;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+.footer-span {
+    color: white;
+    font-size: 1rem;
 }
